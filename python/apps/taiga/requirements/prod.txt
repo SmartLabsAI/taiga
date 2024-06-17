@@ -5,7 +5,7 @@
 #    pip-compile --config=pyproject.toml requirements/prod.in
 #
 a2wsgi==1.7.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 aiopg==1.4.0
     # via procrastinate
 aiosmtplib==1.1.7
@@ -22,7 +22,7 @@ async-timeout==4.0.2
 attrs==23.1.0
     # via procrastinate
 babel==2.12.1
-    # via -r requirements/commons.in
+    # via -r commons.in
 certifi==2023.7.22
     # via
     #   httpcore
@@ -41,41 +41,41 @@ colorama==0.4.6
     # via typer
 croniter==1.4.1
     # via procrastinate
-cryptography==41.0.2
-    # via -r requirements/commons.in
+cryptography==42.0.4
+    # via -r commons.in
 cssselect2==0.7.0
     # via svglib
-django==4.2.3
+django==4.2.11
     # via
-    #   -r requirements/commons.in
+    #   -r commons.in
     #   django-nonrelated-inlines
     #   django-stubs
     #   django-stubs-ext
     #   easy-thumbnails
 django-nonrelated-inlines==0.2
-    # via -r requirements/commons.in
+    # via -r commons.in
 django-stubs==4.2.3
-    # via -r requirements/commons.in
+    # via -r commons.in
 django-stubs-ext==4.2.2
     # via django-stubs
-dnspython==2.4.1
+dnspython==2.6.1
     # via
     #   email-validator
     #   fastapi-mailman
 easy-thumbnails==2.8.5
-    # via -r requirements/commons.in
+    # via -r commons.in
 email-validator==1.3.1
     # via
     #   fastapi-mailman
     #   pydantic
 faker==19.2.0
-    # via -r requirements/commons.in
-fastapi==0.100.1
+    # via -r commons.in
+fastapi==0.109.1
     # via
-    #   -r requirements/commons.in
+    #   -r commons.in
     #   fastapi-mailman
 fastapi-mailman==0.0.4
-    # via -r requirements/commons.in
+    # via -r commons.in
 h11==0.14.0
     # via
     #   httpcore
@@ -87,16 +87,16 @@ httpcore==0.17.3
 httptools==0.6.0
     # via uvicorn
 httpx==0.24.1
-    # via -r requirements/commons.in
-idna==3.4
+    # via -r commons.in
+idna==3.7
     # via
     #   anyio
     #   email-validator
     #   httpx
     #   requests
-jinja2==3.1.2
+jinja2==3.1.4
     # via
-    #   -r requirements/commons.in
+    #   -r commons.in
     #   fastapi-mailman
 lxml==4.9.3
     # via svglib
@@ -110,14 +110,14 @@ mypy==1.4.1
     # via django-stubs
 mypy-extensions==1.0.0
     # via mypy
-pillow==10.0.0
+pillow==10.3.0
     # via
     #   easy-thumbnails
     #   reportlab
 procrastinate==0.27.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 psycopg2==2.9.6
-    # via -r requirements/commons.in
+    # via -r commons.in
 psycopg2-binary==2.9.6
     # via
     #   aiopg
@@ -126,15 +126,15 @@ pycparser==2.21
     # via cffi
 pydantic[dotenv,email]==1.10.12
     # via
-    #   -r requirements/commons.in
+    #   -r commons.in
     #   fastapi
     #   fastapi-mailman
 pygments==2.15.1
     # via rich
 pyhumps==3.8.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 pyjwt==2.8.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 python-dateutil==2.8.2
     # via
     #   croniter
@@ -145,19 +145,19 @@ python-dotenv==1.0.0
     #   pydantic
     #   uvicorn
 python-json-logger==2.0.7
-    # via -r requirements/commons.in
-python-multipart==0.0.6
-    # via -r requirements/commons.in
+    # via -r commons.in
+python-multipart==0.0.7
+    # via -r commons.in
 python-slugify==8.0.1
-    # via -r requirements/commons.in
+    # via -r commons.in
 pyyaml==6.0.1
     # via uvicorn
 redis[hiredis]==4.6.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 reportlab==4.0.4
     # via svglib
-requests==2.31.0
-    # via -r requirements/commons.in
+requests==2.32.2
+    # via -r commons.in
 rich==13.5.2
     # via typer
 shellingham==1.5.0.post1
@@ -169,12 +169,12 @@ sniffio==1.3.0
     #   anyio
     #   httpcore
     #   httpx
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via django
-starlette==0.27.0
+starlette==0.35.1
     # via fastapi
 svglib==1.5.1
-    # via -r requirements/commons.in
+    # via -r commons.in
 text-unidecode==1.3
     # via python-slugify
 tinycss2==1.2.1
@@ -182,12 +182,12 @@ tinycss2==1.2.1
     #   cssselect2
     #   svglib
 typer[all]==0.9.0
-    # via -r requirements/commons.in
+    # via -r commons.in
 types-pytz==2023.3.0.0
     # via django-stubs
 types-pyyaml==6.0.12.11
     # via django-stubs
-typing-extensions==4.7.1
+typing-extensions==4.12.2
     # via
     #   django-stubs
     #   django-stubs-ext
@@ -195,10 +195,10 @@ typing-extensions==4.7.1
     #   mypy
     #   pydantic
     #   typer
-urllib3==2.0.4
+urllib3==2.2.2
     # via requests
 uvicorn[standard]==0.23.2
-    # via -r requirements/commons.in
+    # via -r commons.in
 uvloop==0.17.0
     # via uvicorn
 watchfiles==0.19.0
