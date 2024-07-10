@@ -14,18 +14,18 @@ cfgv==3.3.1
     # via pre-commit
 click==8.1.6
     # via pip-tools
-cryptography==41.0.2
+cryptography==42.0.4
     # via
     #   types-pyopenssl
     #   types-redis
 distlib==0.3.7
     # via virtualenv
-django==4.2.3
+django==4.2.14
     # via
     #   django-stubs
     #   django-stubs-ext
 django-stubs==4.2.3
-    # via -r requirements/devel.in
+    # via -r devel.in
 django-stubs-ext==4.2.2
     # via django-stubs
 filelock==3.12.2
@@ -34,7 +34,7 @@ identify==2.5.26
     # via pre-commit
 mypy==1.4.1
     # via
-    #   -r requirements/devel.in
+    #   -r devel.in
     #   django-stubs
 mypy-extensions==1.0.0
     # via mypy
@@ -43,27 +43,27 @@ nodeenv==1.8.0
 packaging==23.1
     # via build
 pip-tools==7.1.0
-    # via -r requirements/devel.in
+    # via -r devel.in
 platformdirs==3.10.0
     # via virtualenv
 pre-commit==3.3.3
-    # via -r requirements/devel.in
+    # via -r devel.in
 pycparser==2.21
     # via cffi
 pyproject-hooks==1.0.0
     # via build
 pyyaml==6.0.1
     # via pre-commit
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via django
 types-babel==2.11.0.15
-    # via -r requirements/devel.in
+    # via -r devel.in
 types-pillow==10.0.0.2
-    # via -r requirements/devel.in
+    # via -r devel.in
 types-pyopenssl==23.2.0.2
     # via types-redis
 types-python-slugify==8.0.0.3
-    # via -r requirements/devel.in
+    # via -r devel.in
 types-pytz==2023.3.0.0
     # via
     #   django-stubs
@@ -71,9 +71,9 @@ types-pytz==2023.3.0.0
 types-pyyaml==6.0.12.11
     # via django-stubs
 types-redis==4.6.0.3
-    # via -r requirements/devel.in
+    # via -r devel.in
 types-requests==2.31.0.2
-    # via -r requirements/devel.in
+    # via -r devel.in
 types-setuptools==68.0.0.3
     # via types-babel
 types-urllib3==1.26.25.14
